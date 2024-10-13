@@ -3,3 +3,13 @@
 USER-AGENT,AppleNews*
 USER-AGENT,com.apple.news*
 DOMAIN,gspe1-ssl.ls.apple.com
+
+# Apple News Specific Rules
+DOMAIN-SUFFIX,news-assets.apple.com
+DOMAIN-SUFFIX,news-todayconfig-edge.apple.com
+DOMAIN-SUFFIX,news-events.apple.com
+DOMAIN-SUFFIX,news-sports-events.apple.com
+
+# Other Apple Services
+DOMAIN-SUFFIX,bag.itunes.apple.com
+DOMAIN-SUFFIX,amp-api.apps.apple.com
