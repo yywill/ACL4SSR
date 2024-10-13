@@ -15,6 +15,9 @@ DOMAIN-SUFFIX,news-events.apple.com
 DOMAIN-SUFFIX,news-edge.apple.com
 DOMAIN-SUFFIX,c.apple.news
 DOMAIN-SUFFIX,newsletter-edge.apple.com
+DOMAIN-SUFFIX,apple.com.akadns.net
+DOMAIN-SUFFIX.news-sports-events.apple.com
+
 
 # iTunes Related Rule
 DOMAIN-SUFFIX,fpinit.itunes.apple.com
