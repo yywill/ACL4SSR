@@ -17,6 +17,9 @@ DOMAIN-SUFFIX,c.apple.news
 DOMAIN-SUFFIX,newsletter-edge.apple.com
 DOMAIN-SUFFIX,apple.com.akadns.net
 
+# 好像是看杂志的
+DOMAIN-SUFFIX,webproxy.advp.apple.com
+
 
 # iTunes Related Rule
 DOMAIN-SUFFIX,fpinit.itunes.apple.com
