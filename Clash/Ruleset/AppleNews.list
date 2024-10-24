@@ -28,3 +28,7 @@ DOMAIN-SUFFIX,fpinit.itunes.apple.com
 # Other Apple Services
 DOMAIN-SUFFIX,bag.itunes.apple.com
 DOMAIN-SUFFIX,amp-api.apps.apple.com
+
+# relay & AI
+DOMAIN-SUFFIX,apple-relay.apple.com
+DOMAIN-SUFFIX,relay.apple.com
