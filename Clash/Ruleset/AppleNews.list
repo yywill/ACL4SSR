@@ -4,6 +4,13 @@ USER-AGENT,AppleNews*
 USER-AGENT,com.apple.news*
 DOMAIN,gspe1-ssl.ls.apple.com
 
+# > News from https://nsringo.github.io/guide/apple-news.html
+DOMAIN,news-edge.apple.com
+DOMAIN,news-events.apple.com
+DOMAIN,apple.comscoreresearch.com
+# News+ Audio
+URL-REGEX,^https?:\/\/news-assets\.apple\.com\/(audio-narrative|podcast\/audio)\/.*
+
 # Apple News Specific Rules
 DOMAIN-SUFFIX,news-assets.apple.com
 DOMAIN-SUFFIX,news-todayconfig-edge.apple.com
