@@ -36,6 +36,12 @@ DOMAIN-SUFFIX,poly.network
 DOMAIN-SUFFIX,zkscan.io
 DOMAIN-SUFFIX,zksync.io
 DOMAIN-SUFFIX,boba.network
+DOMAIN-SUFFIX,hashkey.com
+DOMAIN-SUFFIX,bitmart.com
+DOMAIN-SUFFIX,bitmax.io
+DOMAIN-SUFFIX,bitrue.com
+DOMAIN-SUFFIX,bitz.com
+DOMAIN-SUFFIX,coinw.com
 
 # > Binance
 DOMAIN-SUFFIX,binance.cc
