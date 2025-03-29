@@ -306,3 +306,8 @@ DOMAIN-SUFFIX,1inch.io
 
 # > Chippay
 DOMAIN-SUFFIX,chippay.com
+
+
+# > Deribit
+DOMAIN-SUFFIX,deribit.com
+DOMAIN-SUFFIX,signalplus.com
