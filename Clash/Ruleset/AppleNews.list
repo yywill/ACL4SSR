@@ -28,6 +28,9 @@ DOMAIN-SUFFIX,news.iadsdk.apple.com
 # 好像是看杂志的
 DOMAIN-SUFFIX,webproxy.advp.apple.com
 
+# 活动
+DOMAIN-SUFFIX,news-app-events.apple.com
+
 
 # iTunes Related Rule
 DOMAIN-SUFFIX,fpinit.itunes.apple.com
