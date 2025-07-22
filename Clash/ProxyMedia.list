@@ -19,6 +19,10 @@ USER-AGENT,All4*
 DOMAIN-SUFFIX,c4assets.com
 DOMAIN-SUFFIX,channel4.com
 
+# Truth Social
+DOMAIN-KEYWORD,truth
+DOMAIN-SUFFIX,truthsocial.com
+
 # Amazon
 DOMAIN-KEYWORD,avoddashs
 DOMAIN,atv-ps.amazon.com
