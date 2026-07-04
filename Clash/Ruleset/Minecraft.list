@@ -1,6 +1,8 @@
-# 内容：Minecraft Realms 核心链路（Mojang Session + Minecraft Services + Realms WebSocket）
-# 补充说明：Xbox Live / PSN 登录域名已在 Xbox.list / Sony.list 覆盖，此处只补 Realms 缺失部分
-# 归属：🎮 游戏平台（大陆走香港代理，勿 DIRECT，否则国际服务器被污染/墙导致 loading 卡死）
+# 内容：Minecraft Realms 全链路（Mojang Session + Minecraft Services + Realms WebSocket + MS Auth 补全）
+# 归属：🎮 游戏平台（大陆 → 香港 TUN，全部走代理，勿 DIRECT）
+# 说明：路由器已开 Clash TUN(udp:true)，UDP P2P 自动接管，无需额外端口/IP-CIDR 规则
+# 纠正：网传模板让 xboxlive/microsoft/live.com 走 DIRECT —— 对大陆走代理场景是错的，
+#       会导致微软 auth 被污染/超时，表现为「登录成功但 Realms 无限 loading」
 
 # --- Mojang / Minecraft 核心 ---
 DOMAIN-SUFFIX,minecraft.net
@@ -8,9 +10,10 @@ DOMAIN-SUFFIX,mojang.com
 DOMAIN-SUFFIX,minecraftservices.com
 DOMAIN-SUFFIX,minecraft-services.net
 
-# --- Realms 会话 / WebSocket 连接层（最常漏，Realms 卡 loading 的根源）---
+# --- Realms 会话 / WebSocket 连接层（Realms 卡 loading 的根源）---
 DOMAIN-SUFFIX,realms.minecraft.net
 DOMAIN-SUFFIX,pocket.realms.minecraft.net
+DOMAIN-SUFFIX,realms.gg
 DOMAIN-KEYWORD,realms
 
 # --- Mojang Session / API 精确域名 ---
@@ -19,3 +22,12 @@ DOMAIN,api.minecraftservices.com
 DOMAIN,mcoapi.minecraft.net
 DOMAIN,authserver.mojang.com
 DOMAIN,pc.realms.minecraft.net
+
+# --- Microsoft / Xbox Auth 链路补全（Realms 登录 OAuth redirect chain，网传模板误设 DIRECT）---
+DOMAIN-SUFFIX,msauth.net
+DOMAIN-SUFFIX,msftauth.net
+DOMAIN-SUFFIX,xboxcdn.com
+DOMAIN,login.live.com
+DOMAIN,login.microsoftonline.com
+DOMAIN,user.auth.xboxlive.com
+DOMAIN,xsts.auth.xboxlive.com
