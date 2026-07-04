@@ -1,0 +1,17 @@
+# 内容：Xbox / Microsoft 游戏下载 CDN —— 走直连省流量
+# 归属：🎯 全球直连
+# 原理：下载是 GB 级大流量，直连不耗机场流量；微软 CDN 国内有节点，网速快时直连更快
+# 关键：必须置顶，优先于游戏平台的 DOMAIN-SUFFIX,xboxlive.com，否则 CDN 子域名被代理规则截走
+
+# Xbox 下载 CDN 专用域名
+DOMAIN-SUFFIX,xboxcdn.com
+DOMAIN-SUFFIX,dlassets.xboxlive.com
+DOMAIN-SUFFIX,dlassets-ssl.xboxlive.com
+DOMAIN-SUFFIX,assets1.xboxlive.com
+DOMAIN-SUFFIX,assets2.xboxlive.com
+DOMAIN-KEYWORD,dlassets
+
+# 微软通用下载 CDN（游戏/系统更新大文件）
+DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
+DOMAIN-SUFFIX,do.dsp.mp.microsoft.com
+DOMAIN-KEYWORD,delivery.mp.microsoft

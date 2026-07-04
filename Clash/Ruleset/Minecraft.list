@@ -26,8 +26,10 @@ DOMAIN,pc.realms.minecraft.net
 # --- Microsoft / Xbox Auth 链路补全（Realms 登录 OAuth redirect chain，网传模板误设 DIRECT）---
 DOMAIN-SUFFIX,msauth.net
 DOMAIN-SUFFIX,msftauth.net
-DOMAIN-SUFFIX,xboxcdn.com
 DOMAIN,login.live.com
 DOMAIN,login.microsoftonline.com
 DOMAIN,user.auth.xboxlive.com
 DOMAIN,xsts.auth.xboxlive.com
+
+# 注意：游戏下载 CDN（xboxcdn.com / dlassets*.xboxlive.com / assets*.xboxlive.com）
+# 走直连省流量，见下方单独的直连清单，勿放此处（此处全走代理）
