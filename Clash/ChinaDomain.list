@@ -342,12 +342,8 @@ DOMAIN-SUFFIX,sohuno.com
 DOMAIN-SUFFIX,sohurdc.com
 DOMAIN-SUFFIX,v-56.com
 
-# Sony
-DOMAIN-SUFFIX,playstation.com
-DOMAIN-SUFFIX,playstation.net
-DOMAIN-SUFFIX,playstationnetwork.com
-DOMAIN-SUFFIX,sony.com
-DOMAIN-SUFFIX,sonyentertainmentnetwork.com
+# Sony 已移除：游戏平台域名改由 🎮 游戏平台 组处理，走代理而非直连
+# sony.com 是普通企业站，如需直连可单独加回，但 playstation* 应走游戏代理
 
 # SteamCN
 DOMAIN-SUFFIX,cm.steampowered.com
