@@ -1,6 +1,6 @@
 payload:
   # 内容：OpenAi
-  # 数量：17条
+  # 数量：18条
   - DOMAIN-KEYWORD,openai
   - DOMAIN,gemini.google.com
   - DOMAIN-SUFFIX,auth0.com
@@ -12,6 +12,7 @@ payload:
   - DOMAIN-SUFFIX,identrust.com
   - DOMAIN-SUFFIX,intercom.io
   - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,meta.ai
   - DOMAIN-SUFFIX,oaistatic.com
   - DOMAIN-SUFFIX,oaiusercontent.com
   - DOMAIN-SUFFIX,openai.com
