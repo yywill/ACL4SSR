@@ -1,6 +1,6 @@
 payload:
-  # 内容：ByteDance
-  # 数量：44条
+  # 内容：ByteDance（含飞书 / Lark）
+  # 数量：61条
   - DOMAIN-SUFFIX,amemv.com
   - DOMAIN-SUFFIX,bdxiguaimg.com
   - DOMAIN-SUFFIX,bdxiguastatic.com
@@ -45,3 +45,20 @@ payload:
   - DOMAIN-SUFFIX,zijieimg.com
   - DOMAIN-SUFFIX,zjbyte.com
   - DOMAIN-SUFFIX,zjcdn.com
+  # 飞书（国内）
+  - DOMAIN-SUFFIX,feishu.cn
+  - DOMAIN-SUFFIX,feishu.net
+  - DOMAIN-SUFFIX,feishucdn.com
+  - DOMAIN-SUFFIX,feishuimg.com
+  - DOMAIN-SUFFIX,feishuapp.cn
+  - DOMAIN-SUFFIX,getfeishu.cn
+  - DOMAIN-SUFFIX,feishupkg.com
+  - DOMAIN-SUFFIX,feishu-3rd-party-services.com
+  # Lark（国际）
+  - DOMAIN-SUFFIX,larksuite.com
+  - DOMAIN-SUFFIX,larksuitecdn.com
+  - DOMAIN-SUFFIX,larkoffice.com
+  - DOMAIN-SUFFIX,larkenterprise.com
+  - DOMAIN-SUFFIX,lark.com
+  - DOMAIN-KEYWORD,feishu
+  - DOMAIN-KEYWORD,larksuite
